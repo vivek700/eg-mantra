@@ -1,0 +1,67 @@
+ <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        {/* <!-- Blueprint Background --> */}
+        <rect x="0" y="0" width="400" height="400" fill="#f0f8ff" />
+
+        {/* <!-- Grid Lines --> */}
+        <g stroke="#cce" strokeWidth="0.5">
+          <g id="vertical-lines">
+            <path d="M40 40 V360" />
+            <path d="M80 40 V360" />
+            <path d="M120 40 V360" />
+            <path d="M160 40 V360" />
+            <path d="M200 40 V360" />
+            <path d="M240 40 V360" />
+            <path d="M280 40 V360" />
+            <path d="M320 40 V360" />
+            <path d="M360 40 V360" />
+          </g>
+          <g id="horizontal-lines">
+            <path d="M40 40 H360" />
+            <path d="M40 80 H360" />
+            <path d="M40 120 H360" />
+            <path d="M40 160 H360" />
+            <path d="M40 200 H360" />
+            <path d="M40 240 H360" />
+            <path d="M40 280 H360" />
+            <path d="M40 320 H360" />
+            <path d="M40 360 H360" />
+          </g>
+        </g>
+
+        {/* <!-- Floor Plan --> */}
+        <g stroke="#2c3e50" strokeWidth="2" fill="none">
+          {/* <!-- Outer Walls --> */}
+          <rect x="80" y="80" width="240" height="240" />
+
+          {/* <!-- Interior Walls --> */}
+          <path d="M200 80 V320" />
+          <path d="M80 200 H320" />
+
+          {/* <!-- Doors --> */}
+          <path d="M190 200 A 10 10 0 0 1 210 200" stroke="#3498db" />
+          <path d="M200 310 A 10 10 0 0 0 200 330" stroke="#3498db" />
+
+          {/* <!-- Windows --> */}
+          <g stroke="#3498db">
+            <path d="M120 80 V100 M140 80 V100" />
+            <path d="M260 80 V100 M280 80 V100" />
+            <path d="M80 120 H100 M80 140 H100" />
+            <path d="M300 120 H320 M300 140 H320" />
+          </g>
+        </g>
+
+        {/* <!-- Dimensions --> */}
+        <g fontFamily="Arial" fontSize="10" fill="#2c3e50">
+          <text x="200" y="50" textAnchor="middle">
+            24.0 m
+          </text>
+          <text
+            x="50"
+            y="200"
+            textAnchor="middle"
+            transform="rotate(-90 50 200)"
+          >
+            24.0 m
+          </text>
+        </g>
+      </svg>
