@@ -1,11 +1,3 @@
-import {
-  Facebook,
-  Instagram,
-  Mail,
-  MailIcon,
-  Twitter,
-  Youtube,
-} from "lucide-react";
 import Link from "next/link";
 import React from "react";
 

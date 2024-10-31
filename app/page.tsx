@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <>
       <section className="relative h-full w-full bg-slate-900/70 bg-[url('../public/bg-hero-3.jpg')] bg-cover bg-center bg-no-repeat text-white bg-blend-overlay">
-        <section className="mx-auto h-full w-11/12 pb-20 pt-16 text-center 2xl:w-3/5">
+        <section className="mx-auto h-full w-11/12 pb-16 pt-16 text-center 2xl:w-3/5">
           <section>
-            <h1 className="text-4xl font-bold">
+            <h1 className="text-4xl font-bold leading-snug">
               Engineer Mantra is a trusted and reliable provider of
               comprehensive building construction solutions.{" "}
             </h1>
-            <p className="pb-20 pt-14 text-lg font-semibold tracking-wide">
+            <p className="pb-14 pt-12 text-lg font-semibold tracking-wide">
               We specialize in architecture, structure, and interior design
               services that are tailored to meet the unique needs and
               requirements of each project. With a strong emphasis on adhering
