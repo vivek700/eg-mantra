@@ -44,6 +44,7 @@ export default function Home() {
         </section>
         <section className="mx-auto w-11/12 2xl:w-3/5">
           <iframe
+            loading="lazy"
             className="rounded-lg"
             src="https://docs.google.com/spreadsheets/d/1zGl70pICuh_DwjrDBn6Q4fq92vDPG8BZYD1o1rO_PmI/edit?gid=0#gid=0"
             width="100%"
