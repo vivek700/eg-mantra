@@ -34,7 +34,7 @@ const Navbar = () => {
         <nav className="relative bg-[#052439] text-white">
           <section className="mx-auto flex h-20 w-11/12 items-center justify-between 2xl:w-3/5">
             <section className="mr-10 w-1/3">
-              <h1 className="text-3xl font-bold tracking-wide">
+              <h1 className="text-2xl font-bold tracking-wide md:text-3xl">
                 <Link href={"/"}>
                   <abbr title="Engineer Mantra" className="no-underline">
                     Engineer Mantra
@@ -80,32 +80,44 @@ const Navbar = () => {
                   </Link>
                   <SubNav>
                     <Link href={"/training-programm/basic-computing"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/training-programm/basic-computing" ? "text-red-400" : ""}`}
+                      >
                         Basic Computing
                       </li>
                     </Link>
                     <Link href={"/training-programm/ms-office"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/training-programm/ms-office" ? "text-red-400" : ""}`}
+                      >
                         Ms Office
                       </li>
                     </Link>
                     <Link href={"/training-programm/autocad"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/training-programm/autocad" ? "text-red-400" : ""}`}
+                      >
                         AutoCAD
                       </li>
                     </Link>
                     <Link href={"/training-programm/revit"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/training-programm/revit" ? "text-red-400" : ""}`}
+                      >
                         Revit
                       </li>
                     </Link>
                     <Link href={"/training-programm/staad-pro"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/training-programm/staad-pro" ? "text-red-400" : ""}`}
+                      >
                         Staad.Pro
                       </li>
                     </Link>
                     <Link href={"/training-programm/3ds-max"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/training-programm/3ds-max" ? "text-red-400" : ""}`}
+                      >
                         3Ds Max
                       </li>
                     </Link>
@@ -122,22 +134,30 @@ const Navbar = () => {
                   </section>
                   <SubNav>
                     <Link href={"/company/valuation"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/company/valuation" ? "text-red-400" : ""}`}
+                      >
                         Valuation
                       </li>
                     </Link>
                     <Link href={"/company/career"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/company/career" ? "text-red-400" : ""}`}
+                      >
                         Career
                       </li>
                     </Link>
                     <Link href={"/company/about-us"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/company/about-us" ? "text-red-400" : ""}`}
+                      >
                         about Us
                       </li>
                     </Link>
                     <Link href={"/company/contact-us"}>
-                      <li className="rounded-lg py-2 hover:text-red-400">
+                      <li
+                        className={`rounded py-2 hover:text-red-400 focus:text-red-400 ${pathname === "/company/contact-us" ? "text-red-400" : ""}`}
+                      >
                         Contact Us
                       </li>
                     </Link>
