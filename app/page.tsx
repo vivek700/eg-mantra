@@ -4,14 +4,14 @@ import Videos from "./components/Videos";
 export default function Home() {
   return (
     <>
-      <section className="relative h-full w-full bg-slate-900/70 bg-[url('../public/bg-hero-3.jpg')] bg-cover bg-center bg-no-repeat text-white bg-blend-overlay">
-        <section className="mx-auto h-full w-11/12 pb-16 pt-16 text-center 2xl:w-3/5">
+      <section className="relative h-full w-full bg-slate-900/80 bg-[url('../public/bg-hero-3.jpg')] bg-cover bg-center bg-no-repeat text-white bg-blend-overlay">
+        <section className="mx-auto h-full w-11/12 pb-14 pt-10 text-center md:pt-16 2xl:w-3/5">
           <section>
             <h1 className="text-4xl font-bold leading-snug">
               Engineer Mantra is a trusted and reliable provider of
               comprehensive building construction solutions.{" "}
             </h1>
-            <p className="pb-14 pt-12 text-lg font-semibold tracking-wide">
+            <p className="pb-12 pt-12 text-lg tracking-wide">
               We specialize in architecture, structure, and interior design
               services that are tailored to meet the unique needs and
               requirements of each project. With a strong emphasis on adhering
@@ -19,21 +19,21 @@ export default function Home() {
               aesthetics of our buildings, striving to create structurally sound
               and visually appealing spaces.
             </p>
-            <button className="mx-5 rounded-lg bg-blue-600 px-4 py-2 text-white">
+            <button className="mx-5 my-2 rounded-lg bg-blue-600 px-4 py-2 text-white">
               View Samples
             </button>
-            <button className="mx-5 rounded-lg bg-blue-600 px-4 py-2 text-white">
+            <button className="mx-5 my-2 rounded-lg bg-blue-600 px-4 py-2 text-white">
               Estimae Your Charges
             </button>
           </section>
         </section>
       </section>
       <section className="h-full w-full bg-white/90 bg-[url('../public/bg-hero-4.svg')] bg-cover bg-center bg-no-repeat bg-blend-overlay">
-        <section className="flex flex-col items-center justify-center py-8">
-          <h1 className="pb-1 text-lg font-bold uppercase">
+        <section className="flex flex-col items-center justify-center py-6">
+          <h1 className="pb-2 text-lg font-bold uppercase">
             Projects Engineer Mantra
           </h1>
-          <button className="flex items-center rounded-lg bg-blue-500 px-4 py-3 text-lg font-semibold text-white">
+          <button className="flex items-center rounded-lg bg-blue-500 px-4 py-3 font-semibold text-white">
             <span className="pr-1">
               Total Work Experience: 5,406,115.64 sqft
             </span>
@@ -51,12 +51,12 @@ export default function Home() {
             height="600"
           ></iframe>
         </section>
-        <section className="mx-auto w-11/12 py-10 2xl:w-3/5">
+        <section className="mx-auto w-11/12 py-6 2xl:w-3/5">
           <Videos />
         </section>
       </section>
       <section className="h-full w-full bg-white/90 bg-[url('../public/bg-logo.jpeg')] bg-cover bg-center bg-no-repeat bg-blend-overlay">
-        <article className="mx-auto h-full w-11/12 py-5 text-lg font-semibold 2xl:w-3/5">
+        <article className="mx-auto h-full w-11/12 py-5 text-lg 2xl:w-3/5">
           <p>
             Welcome to our website, your ultimate destination for a wide range
             of professional services in architecture, engineering, and
