@@ -20,12 +20,8 @@ const Navbar = () => {
   useEffect(() => {
     if (!isclicked) return;
     document.body.style.overflow = "hidden";
-    if (window.innerWidth > 768) {
-      document.body.style.paddingRight = "4px";
-    }
     return () => {
       document.body.style.overflow = "unset";
-      document.body.style.paddingRight = "0px";
     };
   }, [isclicked]);
 
@@ -36,9 +32,9 @@ const Navbar = () => {
           <section className="mx-auto flex h-20 w-11/12 items-center justify-between 2xl:w-3/5">
             <section className="mr-10 md:w-2/5">
               <h1 className="text-2xl font-bold tracking-wide md:text-3xl">
-                <Link href={"/"}>
+                <Link href={"/"} onClick={sideNavButton}>
                   <abbr
-                    title="Engineer Mantra"
+                    title="Engineer Mantra Home"
                     className="flex items-center gap-2 no-underline"
                   >
                     <Image
