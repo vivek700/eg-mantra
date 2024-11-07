@@ -34,7 +34,7 @@ const SideNavBar = ({
   };
 
   return (
-    <nav className="absolute inset-x-0 top-20 z-10 h-dvh w-full bg-[#052439] p-8 lg:hidden">
+    <nav className="absolute inset-x-0 top-20 z-10 h-dvh w-full bg-[#052439] pl-8 pt-4 lg:hidden">
       <ul className="flex flex-col gap-4 text-lg">
         <Link href={"/design-services"}>
           <li
