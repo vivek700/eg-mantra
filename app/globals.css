@@ -5,6 +5,7 @@
 :root {
   --background: #052439;
   --foreground: #171717;
+  scrollbar-gutter: stable;
 }
 
 body {
