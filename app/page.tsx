@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import Videos from "./components/Videos";
+import Buttons from "./components/ui/Buttons";
 
 export default function Home() {
   return (
@@ -19,12 +20,7 @@ export default function Home() {
               aesthetics of our buildings, striving to create structurally sound
               and visually appealing spaces.
             </p>
-            <button className="mx-5 my-2 rounded-lg bg-blue-600 px-4 py-2 text-white">
-              View Samples
-            </button>
-            <button className="mx-5 my-2 rounded-lg bg-blue-600 px-4 py-2 text-white">
-              Estimae Your Charges
-            </button>
+            <Buttons />
           </section>
         </section>
       </section>
@@ -33,7 +29,7 @@ export default function Home() {
           <h1 className="pb-2 text-lg font-bold uppercase">
             Projects Engineer Mantra
           </h1>
-          <button className="flex items-center rounded-lg bg-blue-500 px-4 py-3 font-semibold text-white">
+          <button className="flex items-center rounded-lg bg-blue-500 px-4 py-2 font-semibold text-white">
             <span className="pr-1">
               Total Work Experience: 5,406,115.64 sqft
             </span>
