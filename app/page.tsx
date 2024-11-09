@@ -24,7 +24,7 @@ export default function Home() {
           </section>
         </section>
       </section>
-      <section className="h-full w-full bg-white/90 bg-[url('../public/bg-hero-4.svg')] bg-cover bg-center bg-no-repeat bg-blend-overlay">
+      <section className="h-full w-full bg-white">
         <section className="flex flex-col items-center justify-center py-6">
           <h1 className="pb-2 text-lg font-bold uppercase">
             Projects Engineer Mantra
@@ -47,12 +47,12 @@ export default function Home() {
             height="600"
           ></iframe>
         </section>
-        <section className="mx-auto w-11/12 py-6 2xl:w-3/5">
-          <Videos />
-        </section>
       </section>
       <section className="h-full w-full bg-white/90 bg-[url('../public/bg-logo.jpeg')] bg-cover bg-center bg-no-repeat bg-blend-overlay">
         <article className="mx-auto h-full w-11/12 py-5 text-lg 2xl:w-3/5">
+          <section className="py-6">
+            <Videos />
+          </section>
           <p>
             Welcome to our website, your ultimate destination for a wide range
             of professional services in architecture, engineering, and
