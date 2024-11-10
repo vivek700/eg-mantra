@@ -7,7 +7,7 @@ const page = () => {
     <>
       <section className="bg-slate-900/90 bg-[url('../public/design-services/background-hero.jpg')] bg-cover bg-center bg-no-repeat py-20 text-center text-white bg-blend-overlay">
         <section className="mx-auto w-11/12 2xl:w-3/5">
-          <h1 className="pb-12 text-6xl">Design Services</h1>
+          <h1 className="pb-7 text-6xl">Design Services</h1>
           <Buttons />
         </section>
       </section>
