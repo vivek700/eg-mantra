@@ -25,8 +25,13 @@ const Footer = () => {
         </p>
         <h3 className="self-start pt-4">Contact us:</h3>
         <p className="self-start text-blue-600">
-          <a href={"tel:+911354097227"}>+91-1354097227</a>,{" "}
-          <a href={"tel:+919897188123"}>+91-9897188123</a>
+          <a className="hover:underline" href={"tel:+911354097227"}>
+            +91-1354097227
+          </a>
+          ,{" "}
+          <a className="hover:underline" href={"tel:+919897188123"}>
+            +91-9897188123
+          </a>
         </p>
         <section className="flex justify-between gap-x-5 pt-8 md:-mt-9 md:self-end md:pt-0">
           <svg
