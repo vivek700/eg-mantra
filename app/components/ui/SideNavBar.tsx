@@ -3,7 +3,6 @@ import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
-import SubNav from "./SubNav";
 
 const SideNavBar = ({
   setIsClicked,
@@ -53,18 +52,21 @@ const SideNavBar = ({
           </li>
         </Link>
         <li>
-          <Link href={"/training-programm"}>
-            <section
-              onMouseDown={() => handleSubNav("training")}
-              className={`flex items-center rounded p-2 hover:bg-slate-700 focus:text-red-400 ${pathname === "/training-programm" ? "text-red-400" : ""}`}
-            >
+          <section
+            className={`flex items-center rounded p-2 hover:bg-slate-700 focus:text-red-400 ${pathname === "/training-programm" ? "text-red-400" : ""}`}
+          >
+            <Link onMouseDown={handleClick} href={"/training-programm"}>
               <span>Training Programm</span>
+            </Link>
+            <section className="ml-2 rounded bg-slate-600">
               <ChevronDown
+                onMouseDown={() => handleSubNav("training")}
                 size={20}
-                className={`text-blue-300 transition-all ease-in-out ${navOpen.training ? "origin-center rotate-180" : ""}`}
+                className={`text-blue-300 transition-all ease-in-out ${navOpen.training ? "origin-center rotate-180" : ""} cursor-pointer`}
               />
             </section>
-          </Link>
+          </section>
+
           {navOpen.training && (
             <ul className="px-10 py-1">
               <Link href={"/training-programm/basic-computing"}>
@@ -121,7 +123,7 @@ const SideNavBar = ({
         <li>
           <section
             onMouseDown={() => handleSubNav("company")}
-            className="flex items-center rounded p-2 hover:bg-slate-700"
+            className="flex cursor-pointer items-center rounded p-2 hover:bg-slate-700"
           >
             <span>Company</span>
             <ChevronDown
