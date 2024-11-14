@@ -1,11 +1,21 @@
 import React from "react";
 import Buttons from "../components/ui/Buttons";
 import Image from "next/image";
+import img1 from "../lib/images/design-services/architectural-drawing.jpeg";
+import img2 from "../lib/images/design-services/floor-plans.jpeg";
+import img3 from "../lib/images/design-services/structure-design.jpeg";
+import img4 from "../lib/images/design-services/autodcr.jpeg";
+import img5 from "../lib/images/design-services/interior-design.jpeg";
+import img6 from "../lib/images/design-services/building-health.jpeg";
+import img7 from "../lib/images/design-services/estimation.jpeg";
+import img8 from "../lib/images/design-services/construction-supervision.jpeg";
+import img9 from "../lib/images/design-services/architecture-model-3dprinting.jpeg";
+import img10 from "../lib/images/design-services/mechanical-plumbing.jpeg";
 
 const page = () => {
   return (
     <>
-      <section className="bg-slate-900/90 bg-[url('../public/design-services/background-hero.jpg')] bg-cover bg-center bg-no-repeat py-20 text-center text-white bg-blend-overlay">
+      <section className="bg-slate-900/90 bg-[url('lib/images/design-services/background-hero.jpg')] bg-cover bg-center bg-no-repeat py-20 text-center text-white bg-blend-overlay">
         <section className="mx-auto w-11/12 2xl:w-3/5">
           <h1 className="pb-7 text-6xl">Design Services</h1>
           <Buttons />
@@ -15,7 +25,7 @@ const page = () => {
         <section className="mx-auto grid w-11/12 gap-6 py-10 text-center md:grid-cols-3 2xl:w-3/5">
           <div className="flex flex-col items-center gap-y-5">
             <Image
-              src={"/design-services/architectural-drawing.jpeg"}
+              src={img1}
               width={300}
               height={300}
               alt=""
@@ -32,7 +42,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center gap-y-5">
             <Image
-              src={"/design-services/floor-plans.jpeg"}
+              src={img2}
               width={300}
               height={300}
               alt=""
@@ -49,7 +59,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center gap-y-5">
             <Image
-              src={"/design-services/structure-design.jpeg"}
+              src={img3}
               width={300}
               height={300}
               alt=""
@@ -67,7 +77,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center gap-y-5">
             <Image
-              src={"/design-services/autodcr.jpeg"}
+              src={img4}
               width={300}
               height={300}
               alt=""
@@ -83,7 +93,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center gap-y-5">
             <Image
-              src={"/design-services/interior-design.jpeg"}
+              src={img5}
               width={300}
               height={300}
               alt=""
@@ -100,7 +110,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center gap-y-5">
             <Image
-              src={"/design-services/building-health.jpeg"}
+              src={img6}
               width={300}
               height={300}
               alt=""
@@ -117,7 +127,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center gap-y-5">
             <Image
-              src={"/design-services/estimation.jpeg"}
+              src={img7}
               width={300}
               height={300}
               alt=""
@@ -133,7 +143,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center gap-y-5">
             <Image
-              src={"/design-services/construction-supervision.jpeg"}
+              src={img8}
               width={300}
               height={300}
               alt=""
@@ -150,7 +160,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center gap-y-5">
             <Image
-              src={"/design-services/architecture-model-3dprinting.jpeg"}
+              src={img9}
               width={300}
               height={300}
               alt=""
@@ -166,7 +176,7 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center gap-y-5 md:col-span-3">
             <Image
-              src={"/design-services/mechanical-plumbing.jpeg"}
+              src={img10}
               width={300}
               height={300}
               alt=""
