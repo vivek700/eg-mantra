@@ -69,7 +69,9 @@ const page = () => {
   ]);
   return (
     <>
-      <section className="flex min-h-80 w-full items-center bg-white/50 bg-[url('../public/testing-labs/testing.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay">
+      <section
+        className={`flex min-h-80 w-full items-center bg-white/50 bg-[url('lib/images/testing-labs/testing.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay`}
+      >
         <section className="mx-auto w-11/12 text-center 2xl:w-3/5">
           <h2 className="text-5xl text-[#052439]">
             Laboratory for Building Material Testing
