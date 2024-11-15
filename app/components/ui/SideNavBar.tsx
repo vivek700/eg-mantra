@@ -154,7 +154,7 @@ const SideNavBar = ({
                   onMouseUp={handleClick}
                   className={`rounded p-2 hover:bg-slate-700 focus:text-red-400 ${pathname === "/company/about-us" ? "text-red-400" : ""}`}
                 >
-                  about Us
+                  About Us
                 </li>
               </Link>
               <Link href={"/company/contact-us"}>
