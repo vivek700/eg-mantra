@@ -1,19 +1,25 @@
 import Buttons from "@/app/components/ui/Buttons";
 import Image from "next/image";
 import info from "../../lib/data/data.json";
+import PersonalInfo from "@/app/components/PersonalInfo";
+import type { Info } from "@/app/lib/types/employee";
 
 const page = () => {
+  const infoElements = info.personalInfo.map((info: Info) => (
+    <PersonalInfo key={crypto.randomUUID()} info={info} />
+  ));
+
   return (
     <>
       <section className="bg-white/70 bg-[url('lib/images/about-us/bg-hero.jpeg')] bg-cover bg-center bg-no-repeat py-10 text-center bg-blend-overlay md:py-20">
         <section className="mx-auto w-11/12 2xl:w-3/5">
-          <h2 className="pb-8 text-7xl">About us</h2>
+          <h2 className="pb-8 text-5xl md:text-7xl">About us</h2>
           <Buttons />
         </section>
       </section>
       <section className="bg-white/80 bg-[url('lib/images/about-us/bg-main.png')] bg-cover bg-center bg-no-repeat py-10 bg-blend-overlay">
         <section className="mx-auto w-11/12 2xl:w-3/5">
-          <article className="flex flex-col gap-y-3 pb-5">
+          <article className="flex flex-col gap-y-3 pb-8">
             <h3 className="text-3xl">Our Vision</h3>
             <h4 className="text-2xl">
               Is for India's building industry to become standardised and
@@ -58,9 +64,10 @@ const page = () => {
             width={150}
             height={150}
             alt="company logo"
+            className="w-[9rem]"
           />
           <h2 className="text-5xl">Engineer Mantra</h2>
-          <article className="flex flex-col gap-y-3 py-6">
+          <article className="flex flex-col gap-y-3 py-8 md:py-14">
             <h5 className="text-2xl">
               We are a group of engineers and experts who are dedicated to
               raising people's living standards and quality of life.
@@ -76,7 +83,7 @@ const page = () => {
             </p>
             <p>We hope that this figure will be in the millions.</p>
           </article>
-          <section></section>
+          <section>{infoElements}</section>
         </section>
       </section>
     </>
