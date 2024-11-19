@@ -31,23 +31,23 @@ const Navbar = () => {
         <nav className="relative bg-[#052439] text-white">
           <section className="mx-auto flex h-20 w-11/12 items-center justify-between 2xl:w-3/5">
             <section className="mr-10 md:w-2/5">
-              <h1 className="text-2xl font-bold tracking-wide md:text-3xl">
+              <section className="rounded text-2xl font-bold tracking-wide md:text-3xl">
                 <Link href={"/"} onClick={() => setIsClicked(false)}>
                   <abbr
                     title="Engineer Mantra Home"
-                    className="flex items-center gap-1 no-underline"
+                    className="flex items-center no-underline"
                   >
                     <Image
                       src={"/logo.svg"}
                       width={40}
                       height={40}
                       alt="company logo"
-                      className="h-14 w-14"
+                      className="h-12 w-12"
                     />
-                    <span>Engineer Mantra</span>
+                    <h1>Engineer Mantra</h1>
                   </abbr>
                 </Link>
-              </h1>
+              </section>
             </section>
             <aside className="lg:hidden">
               <button
