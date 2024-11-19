@@ -1,7 +1,8 @@
+import UnderConstruction from "@/app/components/ui/UnderConstruction";
 import React from "react";
 
 const page = () => {
-  return <div> stadd pro page</div>;
+  return <UnderConstruction />;
 };
 
 export default page;
