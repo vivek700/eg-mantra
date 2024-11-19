@@ -29,14 +29,19 @@ export default function Home() {
           <h1 className="pb-2 text-lg font-bold uppercase">
             Projects Engineer Mantra
           </h1>
-          <button className="flex items-center rounded-lg bg-blue-500 px-4 py-2 font-semibold text-white">
-            <span className="pr-1">
-              Total Work Experience: 5,406,115.64 sqft
-            </span>
-            <span>
-              <ArrowUpRight />
-            </span>
-          </button>
+          <a
+            href="https://docs.google.com/spreadsheets/d/1zGl70pICuh_DwjrDBn6Q4fq92vDPG8BZYD1o1rO_PmI/edit?gid=0#gid=0"
+            target="_blank"
+          >
+            <button className="group flex items-center rounded-lg bg-blue-500 px-4 py-2 font-semibold text-white hover:bg-blue-600 focus:bg-blue-600">
+              <span className="pr-1">
+                Total Work Experience: 5,406,115.64 sqft
+              </span>
+              <span>
+                <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
+              </span>
+            </button>
+          </a>
         </section>
         <section className="mx-auto w-11/12 2xl:w-3/5">
           <iframe

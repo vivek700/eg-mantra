@@ -11,7 +11,13 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    Georgia,
+    "Times New Roman",
+    Times,
+    serif sans-serif,
+    Arial,
+    Helvetica;
 }
 
 ::-webkit-scrollbar {
