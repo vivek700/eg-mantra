@@ -7,7 +7,7 @@ const Footer = () => {
           target="_blank"
           href="https://docs.google.com/spreadsheets/d/1u-QThegW2aHHGnpG38W1d1ghKCqBe4XH0fvKWZK1Lzw/edit?gid=2112575983#gid=2112575983"
         >
-          <button className="w-full rounded-lg bg-blue-500 py-2 hover:bg-blue-600 focus:bg-blue-600">
+          <button className="w-full rounded-lg bg-blue-600 py-2 hover:bg-blue-700 focus:bg-blue-600">
             Estimae Your Charges
           </button>
         </a>
@@ -27,7 +27,7 @@ const Footer = () => {
           Ajabpur Khurd, Dehradun, Uttarakhand 248121
         </p>
         <h3 className="self-start pt-4">Contact us:</h3>
-        <p className="self-start text-blue-600">
+        <p className="self-start text-blue-400">
           <a className="hover:underline" href={"tel:+911354097227"}>
             +91-1354097227
           </a>

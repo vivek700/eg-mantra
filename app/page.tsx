@@ -33,7 +33,7 @@ export default function Home() {
             href="https://docs.google.com/spreadsheets/d/1zGl70pICuh_DwjrDBn6Q4fq92vDPG8BZYD1o1rO_PmI/edit?gid=0#gid=0"
             target="_blank"
           >
-            <button className="group flex items-center rounded-lg bg-blue-500 px-4 py-2 font-semibold text-white hover:bg-blue-600 focus:bg-blue-600">
+            <button className="group flex items-center rounded-lg bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700 focus:bg-blue-700">
               <span className="pr-1">
                 Total Work Experience: 5,406,115.64 sqft
               </span>
