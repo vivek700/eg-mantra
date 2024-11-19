@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const page = () => {
@@ -16,24 +17,36 @@ const page = () => {
             </p>
           </section>
           <nav className="pt-8 text-lg text-blue-600">
-            <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
-              Basic Computing
-            </button>
-            <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
-              Ms Office
-            </button>
-            <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
-              AutoCAD
-            </button>
-            <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
-              Revit
-            </button>
-            <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
-              Staad.Pro
-            </button>
-            <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
-              3Ds Max
-            </button>
+            <Link href={"/training-programm/basic-computing"}>
+              <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
+                Basic Computing
+              </button>
+            </Link>
+            <Link href={"/training-programm/ms-office"}>
+              <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
+                Ms Office
+              </button>
+            </Link>
+            <Link href={"/training-programm/autocad"}>
+              <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
+                AutoCAD
+              </button>
+            </Link>
+            <Link href={"/training-programm/revit"}>
+              <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
+                Revit
+              </button>
+            </Link>
+            <Link href={"/training-programm/staad-pro"}>
+              <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
+                Staad.Pro
+              </button>
+            </Link>
+            <Link href={"/training-programm/3ds-max"}>
+              <button className="mx-3 mt-5 rounded bg-white px-3 py-1 outline outline-1 outline-blue-600 transition-colors hover:bg-slate-300 focus:bg-slate-300">
+                3Ds Max
+              </button>
+            </Link>
           </nav>
         </section>
       </section>
