@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <section className="bg-slate-900/80 bg-[url('lib/images/training-programm/bg-hero.jpeg')] bg-cover bg-center bg-no-repeat py-10 text-center text-white bg-blend-overlay md:py-20">
@@ -88,4 +88,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -2,7 +2,7 @@
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [h3Open, setH3open] = useState({
     first: false,
     second: false,
@@ -286,4 +286,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

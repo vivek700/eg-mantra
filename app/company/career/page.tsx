@@ -1,7 +1,7 @@
 import jobs from "../../lib/data/careerData.json";
 import type { Job } from "@/app/lib/types/job";
 
-const page = () => {
+const Page = () => {
   const jobElements = jobs.map((job: Job) => {
     return (
       <section
@@ -50,4 +50,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

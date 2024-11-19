@@ -4,7 +4,7 @@ import info from "../../lib/data/data.json";
 import PersonalInfo from "@/app/components/PersonalInfo";
 import type { Info } from "@/app/lib/types/employee";
 
-const page = () => {
+const Page = () => {
   const infoElements = info.personalInfo.map((info: Info) => (
     <PersonalInfo key={crypto.randomUUID()} info={info} />
   ));
@@ -90,4 +90,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

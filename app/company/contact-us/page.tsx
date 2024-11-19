@@ -1,7 +1,7 @@
 import Buttons from "@/app/components/ui/Buttons";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <section className="bg-white/70 bg-[url('lib/images/contact-us/bg-hero.jpg')] bg-cover bg-center bg-no-repeat py-10 text-center bg-blend-overlay md:py-20">
@@ -14,4 +14,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

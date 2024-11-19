@@ -1,6 +1,6 @@
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <section className="bg-slate-900/80 bg-[url('lib/images/valuation/bg-hero.jpeg')] bg-cover bg-center bg-no-repeat py-28 text-center text-white bg-blend-overlay">
@@ -59,4 +59,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

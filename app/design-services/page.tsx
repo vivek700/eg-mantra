@@ -12,7 +12,7 @@ import img8 from "../lib/images/design-services/construction-supervision.jpeg";
 import img9 from "../lib/images/design-services/architecture-model-3dprinting.jpeg";
 import img10 from "../lib/images/design-services/mechanical-plumbing.jpeg";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <section className="bg-slate-900/90 bg-[url('lib/images/design-services/background-hero.jpg')] bg-cover bg-center bg-no-repeat py-20 text-center text-white bg-blend-overlay">
@@ -196,4 +196,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
