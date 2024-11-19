@@ -1,0 +1,115 @@
+{
+    "personalInfo": [
+        {
+            "name": "Akhilesh Bhatt",
+            "img": "https://utfs.io/f/W8mc3j6IOirLl3vEOfSIeiwxjfPrsKEZ51tVWzJ28noUu6yk",
+            "roles": "CEO, CTO",
+            "education": "Structural Engineer",
+            "experience": {
+                "startYear": 2014
+            },
+            "skills": {
+                "software": "AutoCAD, Revit, Staad.pro, Etabs , 3Ds Max, Sketchup, Photoshop, Twinmotion, Primavera, Civil 3D, Ansys, Ms Office, Matlab,  Python. RCC/ Steel Structure Design, Floor Planning, Construction Supervision, Student Training, MEP Planning,"
+            },
+            "others": [
+                "Registered Valuer at Insolvency and Bankruptcy Board of India",
+                "Young Member of International Association for Bridge and Structural Engineering (Zürich, Switzerland). ",
+                "Graduate Member of The Institution of Structure Engineers (London, United Kingdom).",
+                "Associate Member at Indian Association of Structural Engineers",
+                "Life Member at The Indian Society of Structural Engineers",
+                "Associate Member at The Institution of Engineers",
+                "Highly skilled and wise, an expert in the subject with a calm demeanor.",
+                "Working with him will be a pleasant experience for you.",
+                "The team is ecstatic to be working under his direction. "
+            ]
+        },
+        {
+            "name": "Sumit Juyal",
+            "img": "https://utfs.io/f/W8mc3j6IOirL664bF9oOaCUSmPQpHLZNgyoItTF259Dskqc3",
+            "roles": "Structural Engineer",
+            "experience": {
+                "startYear": 2014
+            },
+            "skills": {
+                "software": "AutoCAD, Revit, Staad.pro,Etabs, Ms Office, Floor Planning, MEP Planning"
+            },
+            "others": [
+                "Past experience as (THDC IHET, NIT Srinagar Gharwal, IT Gopeshwar) Faculty,",
+                "Published various research papers.",
+                "RCC design expert, encouraging, wise and knowledgeable ."
+            ]
+        },
+        {
+            "name": "Anshul Bhatt",
+            "img": "https://utfs.io/f/W8mc3j6IOirL0AagrBGhujiNDP6qM7V8ZgL1nQfTzbYaAsXd",
+            "roles": "COO",
+            "education": "B-arch student ",
+            "experience": {
+                "startYear": 2017
+            },
+            "skills": {
+                "software": "AutoCAD, Revit, Creo/Pro-E, Ansys, Solidworks, 3Ds Max, Sketchup, Twinmotion, Photoshop, Camstasia,  Ms Office, Floor Planning, Architecture Design, Interior Design, Instrument Design, Student Training ,MEP Planning"
+            },
+            "others": [
+                "He can design nearly anything in CAD, is easy to work with, has a cheerful personality, and is very supportive of his coworkers and clients. "
+            ]
+        },
+        {
+            "name": "Priya Gusain",
+            "img": "https://utfs.io/f/W8mc3j6IOirLbtArbMj7WKPRI49vHA8feFxyacgQOtjV1s0w",
+            "roles": "CFO/HR",
+            "education": "MSC Microbiologist",
+            "experience": {
+                "startYear": 2018
+            },
+            "skills": {
+                "software": "Ms Office, lab management, Office management"
+            },
+            "others": [
+                "She has worked in a variety of industries. She has a vibrant personality, is incredibly committed to her work, and is a pleasure to work with. "
+            ]
+        },
+        {
+            "name": "Amit Bhatt",
+            "img": "https://utfs.io/f/W8mc3j6IOirLCfNkLVPhmXJQqP0hgjOdSIyH4nKsMWY6u2ie",
+            "roles": "Civil Engineer",
+            "experience": {
+                "startYear": 2016
+            },
+            "skills": {
+                "software": " AutoCAD, Revit, Staad.pro, Ms Office, Construction Supervision, BOQ and estimation, Floor Planning, MEP Planning"
+            },
+            "others": [
+                "Having a ton of experience on the field he is able to check every fine detail, He is an encouraging personality."
+            ]
+        },
+        {
+            "name": "Anil Upadhyay",
+            "img": "https://utfs.io/f/W8mc3j6IOirLyOYu0eNdFa81H9IuxVLcps0eyQWjRYg3h2Dz",
+            "roles": "Civil Engineer",
+            "experience": {
+                "startYear": 2019
+            },
+            "skills": {
+                "software": "AutoCAD, Revit, Staad.pro, Ms Office, RCC/ Steel Structure Design, Floor Planning, MEP Planning"
+            },
+            "others": [
+                "Hard working, efficient and a pleasure to work with. Always trying to find new and efficient  solution."
+            ]
+        },
+        {
+            "name": "Saurabh Gaur",
+            "img": "https://utfs.io/f/W8mc3j6IOirL8pkQWsHtCFAdJ9g0fe8mNQPsxkWlMz6nEL1b",
+            "roles": "Civil Engineer, GIS Engineer",
+            "experience": {
+                "startYear": 2020
+            },
+            "skills": {
+                "software": "AutoCAD, Revit, Staad.pro, Sketchup, Photoshop, Twinmotion, Cartopia,  Ms Office, Floor Planning, MEP Planning"
+            },
+            "others": [
+                "Young and technically sound, always eager to learn more."
+            ]
+        }
+    ]
+}

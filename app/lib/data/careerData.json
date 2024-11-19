@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Web Developer",
+        "description": "Are you a skilled Web Developer with expertise in HTML, CSS, and JavaScript? Join us to create captivating and user-friendly web experiences. Collaborate with our design team to transform ideas into cutting-edge websites. Showcasing your knowledge of responsive design and front-end frameworks is a plus"
+    },
+    {
+        "title": "Data Scientist",
+        "description": "We are looking for a Data Scientist who can extract insights from complex data sets using statistical modeling. Your expertise in Python, R, or SQL will be valuable in developing algorithms and predictive models. Join our team to provide actionable business recommendations based on data-driven insights."
+    },
+    {
+        "title": "Machine Learning and Artificial Intelligence Expert",
+        "description": "Engineer Mantra is at the forefront of AI innovation. Join us as a Machine Learning and Artificial Intelligence Expert to develop intelligent systems. Your experience with machine learning algorithms, deep learning, and natural language processing will be key in building innovative AI solutions."
+    },
+    {
+        "title": "Senior Architect",
+        "description": "As a Senior Architect, you will lead our architectural endeavors. Your expertise in designing and implementing complex software systems will be instrumental in shaping the future of our projects. Join our team to showcase your technical proficiency and leadership skills."
+    },
+    {
+        "title": "Copywriter",
+        "description": "Are you a creative and skilled Copywriter? Engineer Mantra is looking for talented individuals who can craft compelling content. Join us to create engaging and persuasive copy that aligns with our brand and captures the attention of our target audience."
+    },
+    {
+        "title": "Editor",
+        "description": "Engineer Mantra seeks an Editor with a keen eye for detail and excellent language skills. Collaborate with our team to ensure the accuracy, clarity, and coherence of our written materials. Your expertise in grammar, style, and tone will help us maintain high-quality standards."
+    },
+    {
+        "title": "Interior Designer",
+        "description": "Are you passionate about creating stunning interior spaces? Engineer Mantra is looking for talented Interior Designers to join our team. Utilize your creativity and expertise to design functional and aesthetically pleasing workspaces that inspire and enhance productivity."
+    },
+    {
+        "title": "Marketing and Social Media Manager",
+        "description": "Join us as a Marketing and Social Media Manager to create impactful marketing campaigns. Your expertise in digital marketing, social media management, and brand promotion will help us reach our target audience effectively."
+    }
+]
