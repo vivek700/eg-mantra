@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown, ChevronUp, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import SubNav from "./ui/SubNav";

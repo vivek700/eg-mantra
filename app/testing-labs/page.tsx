@@ -21,7 +21,7 @@ const Page = () => {
       setH3open((prev) => ({ ...prev, fourth: !prev.fourth }));
     }
   };
-  const [tools, setTools] = useState([
+  const [tools] = useState([
     "Drilling Equipment",
     "Split Spoon Sampler",
     "Drop Hammer",
@@ -121,9 +121,9 @@ const Page = () => {
                 <p>
                   3. Plate load test: This method involves placing a flat plate
                   on the ground and applying a load to it, measuring the
-                  settlement of the plate to determine the soil's bearing
-                  capacity. Don't let uncertain soil conditions jeopardize the
-                  stability of your project. Contact us today to learn more
+                  settlement of the plate to determine the soil&apos;s bearing
+                  capacity. Don&apos;t let uncertain soil conditions jeopardize
+                  the stability of your project. Contact us today to learn more
                   about our bearing capacity testing services.
                 </p>
               </section>
@@ -272,7 +272,7 @@ const Page = () => {
                   8. Impact test of aggregates: This method involves striking a
                   sample of the aggregate with a falling weight and measuring
                   the amount of deformation that occurs, which is an indication
-                  of its toughness and resistance to impact. Don't let poor
+                  of its toughness and resistance to impact. Don&apos;t let poor
                   quality concrete compromise the integrity of your project.
                   Contact us today to learn more about our concrete testing
                   services.

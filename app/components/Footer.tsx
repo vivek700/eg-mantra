@@ -1,6 +1,3 @@
-import Link from "next/link";
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="bg-[#052439] text-white">

@@ -22,7 +22,7 @@ const Page = () => {
           <article className="flex flex-col gap-y-3 pb-8">
             <h3 className="text-3xl">Our Vision</h3>
             <h4 className="text-2xl">
-              Is for India's building industry to become standardised and
+              Is for India&apos;s building industry to become standardised and
               well-engineered.
             </h4>
             <p>
@@ -45,8 +45,8 @@ const Page = () => {
             </h4>
             <p>
               One of the reasons that architectural and engineering services
-              aren't utilized is the additional service cost that comes with all
-              of that knowledge.
+              aren&apos;t utilized is the additional service cost that comes
+              with all of that knowledge.
             </p>
             <p>Our goal is to make building more cost-effective.</p>
             <p>
@@ -70,7 +70,7 @@ const Page = () => {
           <article className="flex flex-col gap-y-3 py-8 md:py-14">
             <h5 className="text-2xl">
               We are a group of engineers and experts who are dedicated to
-              raising people's living standards and quality of life.
+              raising people&apos;s living standards and quality of life.
             </h5>
             <p>
               Our founder, Mr. Akhilesh Bhatt, founded Engineer Mantra in 2017
@@ -78,8 +78,8 @@ const Page = () => {
               construction methods and engineering standards.
             </p>
             <p>
-              Since then, we've assisted in the improvement of the construction
-              quality of thousands of structures.
+              Since then, we&apos;ve assisted in the improvement of the
+              construction quality of thousands of structures.
             </p>
             <p>We hope that this figure will be in the millions.</p>
           </article>

@@ -56,15 +56,15 @@ const Page = () => {
             With a combined industry experience of over 24 years, we are experts
             in most of the engineering software that are used in every industry.
             Engineering software have became a necessity and need for quality
-            training in these software's is missing. We, at engineer mantra
-            promise to deliver the best training in all engineering software's
-            carefully catered through years of experience to give young
-            engineers the push they need to gain success in their career. Unlike
-            most other training institute that are still giving the by book
-            training that is only good in a resume we focus on practical
-            learning, our team has done thousands projects nation wide, we are
-            going to include these in the training program to give real world
-            training
+            training in these software&apos;s is missing. We, at engineer mantra
+            promise to deliver the best training in all engineering
+            software&apos;s carefully catered through years of experience to
+            give young engineers the push they need to gain success in their
+            career. Unlike most other training institute that are still giving
+            the by book training that is only good in a resume we focus on
+            practical learning, our team has done thousands projects nation
+            wide, we are going to include these in the training program to give
+            real world training
           </p>
           <section className="pt-10">
             <iframe

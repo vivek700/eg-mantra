@@ -104,7 +104,7 @@ const Page = () => {
               Our interior designers are skilled in creating beautiful and
               functional spaces that reflect your personal style and
               preferences. We use the latest software and tools to create 3D
-              visualizations that help you visualize your space before it's
+              visualizations that help you visualize your space before it&apos;s
               built.{" "}
             </p>
           </div>

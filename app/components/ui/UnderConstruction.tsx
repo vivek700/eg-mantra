@@ -12,8 +12,8 @@ const UnderConstruction = () => {
         </h1>
 
         <p className="mx-auto max-w-md text-gray-600">
-          We're working hard to bring you something amazing. This page will be
-          available soon!
+          We&apos;re working hard to bring you something amazing. This page will
+          be available soon!
         </p>
       </div>
     </div>
